@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Caosun</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            line-height: 1.5;
+            color: #000;
+            background: #fff;
+            font-size: 16px;
+        }
+        
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0 0 0 0;
+            letter-spacing: -0.5px;
+        }
+        
+        h2 {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 30px 0 15px 0;
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        .greeting {
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        
+        .bio p {
+            margin-bottom: 15px;
+        }
+        
+        .nav {
+            margin: 30px 0;
+            position: relative;
+        }
+        
+        .nav a {
+            color: #000;
+            text-decoration: underline;
+            margin-right: 20px;
+        }
+        
+        .nav a:hover {
+            background-color: #f0f0f0;
+        }
+        
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        ul li {
+            margin-bottom: 8px;
+        }
+        
+        ul li:before {
+            content: "* ";
+            margin-right: 5px;
+        }
+        
+        a {
+            color: #000;
+            text-decoration: underline;
+        }
+        
+        a:hover {
+            background-color: #f0f0f0;
+        }
+        
+        .profile-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin: 0 0 20px 0;
+            display: block;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: #000;
+                color: #fff;
+            }
+            a, .nav a {
+                color: #fff;
+            }
+            .nav a:hover,
+            a:hover {
+                background-color: #333;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Michael Caosun</h1>
+    
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="writing.html">Notes</a>
+    </div>
+    
+    <div class="profile-img" style="background-color: #ddd;"></div>
+    
+    <div class="bio">
+        <p>I am a PhD student in the Information Technology Group at MIT Sloan studying how technology—especially AI—affects workers, markets, and organizations.</p>
+        
+        <p>My current research focus is on modeling how AI augmentation changes task allocation and skill dynamics for workers. Previously, I used large language models to study negotiation.</p>
+        
+        <p>I believe carefully designed experiments are one of the best tools for causal inference in organizational settings.  I am actively seeking partnerships with firms willing to share data or collaborate on field studies of real AI workflows.</p>
+        
+        <p>I previously studied mathematics and economics at the University of Chicago. Outside of research, I enjoy competitive EDH.</p>
+    </div>
+    
+    <h2>Working Papers</h2>
+    <ul>
+        <li><a href="https://arxiv.org/abs/2503.06416">Advancing AI Negotiations: New Theory and Evidence from a Large-Scale Autonomous Negotiations Competition</a> (2025)</li>
+    </ul>
+    
+    <h2>Notes</h2>
+    <ul>
+        <li><a href="writing-in-the-age-of-llms.html">Writing in the Age of LLMs</a></li>
+    </ul>
+</body>
+</html>
