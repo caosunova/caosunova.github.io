@@ -71,39 +71,19 @@ p {
     width: 180px;
     height: 220px;
     border-radius: 8px;
-    margin: 0 0 14px 0;
+    margin: 0 0 18px 0;
     display: block;
     object-fit: cover;
     object-position: center top;
 }
 
-.sidebar-education {
-    margin-bottom: 16px;
-    padding-bottom: 14px;
-    border-bottom: 1px solid #e8e8e8;
+.education h2 {
+    margin-top: 28px;
 }
 
-.sidebar-education .edu-item + .edu-item {
-    margin-top: 12px;
-}
-
-.edu-degree {
-    font-family: 'Source Serif 4', Georgia, serif;
-    font-size: 12px;
-    font-weight: 600;
-    color: #333;
-    line-height: 1.35;
-}
-
-.edu-item .edu-degree + .edu-degree {
-    margin-top: 3px;
-}
-
-.edu-school {
-    font-size: 12px;
-    color: #666;
-    line-height: 1.4;
-    margin-top: 2px;
+.education ul {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .sidebar-links {
